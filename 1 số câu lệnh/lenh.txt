@@ -14,4 +14,15 @@ Git lap và gitHub
 	git add .
 	git commit -m " "
 	git push
-8. 
+
+// Chung
+Khi dùng git muốn kết thúc terminal thì dùng :q
+
+// cách lấy lại commit cũ, chính xác là bỏ các commit mới không cần (dùng với reset)
+-> git reset --hard <mã khi commit> ( quay lại đúng như cái commit khi up lên)
+(để lấy được mã này thì dùng:
+-> git log hoặc git log --pretty=oneline)
+-> git push -f (đẩy lên không cần quan tâm ban đâu như nào)
+
+// cách lấy lại commit cũ nhưng không xóa(dùng với revert)
+ git revert HEAD <hoặc mã khi commit> 
