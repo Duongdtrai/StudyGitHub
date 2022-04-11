@@ -1,0 +1,2 @@
+Lập trình viên A đang sửa đổi
+Lập trình viên A đang muốn sử dụng câu lệnh git reset --hard [] ( thứ 6)

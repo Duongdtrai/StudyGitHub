@@ -1,0 +1,17 @@
+Git lap và gitHub
+// Khi mới tải Git
+1. git config --global user.name "ptd"
+2. git config --global user.email "phamtungduong06032002@gmail.com"
+// Khi sử dụng
+3. git init ( tạo ra git local)
+4. git add . (chuyển từ giai đoạn working space -> git stage area)
+5. git commit -m "..."
+6. git push -u origin main ( lần sau chỉ gần git push, -u chỉ thêm cho ban đầu)
+
+// lập trình viên B
+7. git clone <link git> (đẩy source code về mấy ltv B), sau đó muốn lấy code thì chỉ cần git pull
+-> Khi muốn up code thì cũng: 
+	git add .
+	git commit -m " "
+	git push
+8. 
